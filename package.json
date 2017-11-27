@@ -1,0 +1,26 @@
+{
+  "name": "notedown",
+  "version": "0.0.1",
+  "description": "An online markdown notebook",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "notebook",
+    "journal",
+    "online"
+  ],
+  "author": "Bryan \"ObsidianBlk\" Miller",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5",
+    "qrcode": "^1.0.0",
+    "simplemde": "^1.11.2",
+    "speakeasy": "^2.0.0"
+  }
+}
