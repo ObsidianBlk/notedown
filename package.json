@@ -12,15 +12,24 @@
     "journal",
     "online"
   ],
-  "author": "Bryan \"ObsidianBlk\" Miller",
+  "author": {
+    "name": "Bryan Miller",
+    "email": "bmiller1008@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
     "mongoose": "^4.13.5",
     "qrcode": "^1.0.0",
     "simplemde": "^1.11.2",
     "speakeasy": "^2.0.0"
-  }
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/ObsidianBlk/notedown.git"
+  },
+  "bugs": "https://github.com/ObsidianBlk/notedown/issues"
 }
