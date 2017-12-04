@@ -11,6 +11,7 @@ db.connection.once("open", function(){
   
   app.use(bodyParser.urlencoded({extended:true}));
   app.use(bodyParser.json());
+  app.use(require('./app/ctrls/user').mw.sys.parseUserAuth);
 
   // Setup API routes here.
   // https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
