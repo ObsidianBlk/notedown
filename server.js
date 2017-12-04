@@ -18,7 +18,7 @@ db.connection.once("open", function(){
   // https://davidwalsh.name/2fa
 
   app.listen(port, function(){
-    console.log("NoteDown Server listening on port " + port);
+    console.log("Scribedown Server listening on port " + port);
   });
 
 });
